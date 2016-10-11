@@ -1,0 +1,107 @@
+$colorheader:#FFC112;
+* {
+    box-sizing: border-box;
+}
+
+.header{
+  background-color: $colorheader;
+  width: 100%; 
+  height: 50px;
+  position: fixed; 
+  top:0px; 
+  left:0px;
+  z-index: 4;
+}
+.content-title{
+	float: left;
+	h1 {
+  	font-family: 'Play', sans-serif;	
+  	}
+}
+.content-busqueda{
+	float: right;
+	margin-top: 20px;
+
+}
+.footer-contenedor{
+  background-color: $colorheader;
+  width: 100%; 
+  height: 20px;
+  position: fixed; 
+  top: calc(100% - 20px); 
+  left:0px;
+  z-index: 4;
+
+}
+.footer{
+	width: 100%;
+	float: left;
+}
+.addContenedor{
+	margin-top: 60px;
+	width: 100%; 
+	height: 150px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.addTarea{
+	width: calc(50% - 100px);
+	height: 100%;
+	float: left;
+
+}
+.list-contenedor{
+	width: 100%;
+	height: auto; 
+}
+.element{
+	width: 300px; 
+	height: 250px; 
+	float: left;
+	padding-left: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid black;
+	overflow: auto;
+	h2{
+		font-family: 'Play', sans-serif;
+	}
+	h3 {
+		font-family: 'Indie Flower', cursive;
+	}
+}
+.addNota{
+	width:  calc(50% - 100px);
+	height: 100%;
+	float: right;
+
+}
+.input1{
+	width: 250px;
+	height: 35px; 
+	
+}
+.boton1{
+	width: 100px;
+	height: 35px;
+	position: relative;
+	float: left;	
+}
+.celeste{
+	background: #52A4FF;
+
+}
+.verde{
+	background: #999448;
+}
+.violeta{
+	background: #FF4CF3;
+}
+.rojo{
+	background: #CC2C0F;
+}
+.color{
+	width: 100px; 
+	height: 35px; 
+}
